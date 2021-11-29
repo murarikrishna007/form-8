@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "popins",sans-serif;
+
+}
+html,body{
+    height: 100%;
+    place-items: center;
+    display: grid;
+    text-align: center;
+    background: #131434;
+
+}
+.content{
+    background: #22235a;
+    width: 330px;
+    padding: 40px 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5),
+                -3px -3px 7px rgba(255,255,255,0.05);
+    
+
+}
+.content .text{
+    font-size: 33px;
+    font-weight: 600;
+    color: #8c8c8c;
+    margin-bottom: 35px;
+
+}
+form .field{
+    height: 50px;
+    width: 100%;
+    display: flex;
+
+}
+.field:nth-child(2){
+    margin-top: 20px;
+}
+.field input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #131456;
+    padding-left: 45px;
+    border-radius: 25px;
+    box-shadow: inset 2px 2px 5px rgba(0,0,0,0.5),
+               inset -3px -3px 7px rgba(255,255,255,0.05);
+    color: #b3b3b3;  
+    font-size: 16px; 
+
+
+}
+input::placeholder{
+    color: #8c8c8c;
+}
+/* field input focus */
+.field input:focus{
+    box-shadow: inset 1px 1px 1px rgba(0,0,0,0.5),
+               inset -1px -1px 2px rgba(255,255,255,0.05);
+}
+.field span{
+    position: absolute;
+    width: 50px;
+    color: #8c8c8c;
+    line-height: 50px;
+}
+form .forget-pass{
+    text-align: left;
+    margin: 10px 0 10px 5px;
+
+}
+form .forget-pass a{
+    color: #097dc5;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+form .forget-pass a:hover{
+    text-decoration: underline;
+
+}
+form button{
+    margin: 15px 0;
+    width: 100%;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    height: 50px;
+    font-size: 18px;
+    box-shadow: inset 2px 2px 5px rgba(0,0,0,0.5),
+                inset -3px -3px 7px rgba(255,255,255,0.05);
+    background: #435475;  
+    color: #8c8c8c;   
+    cursor: pointer;       
+    font-weight: 600;
+
+}
+form button:focus{
+    color: #3498db;
+    box-shadow: inset 2px 2px 5px rgba(0,0,0,0.5),
+                inset -3px -3px 7px rgba(255,255,255,0.05);
+}
+
+form .signup-link{
+    margin: 10px 0;
+    color: #8c8c8c;
+    font-size: 16px;
+
+}
+.signup-link a{
+    color: #3498db;
+    text-decoration: none;
+
+}
+.signup-link a:hover{
+    text-decoration: underline;
+    
+}
+
